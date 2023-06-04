@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.keyboard {
+  margin-top: 50px;
+}
+.keyboard button {
+    all: unset;
+ margin: 4px 3px;
+ padding: 8px;
+ background-color: rgba(29, 152, 146, 0.6);
+}
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board-row {
+    display: flex;
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    background-color:rgba(29, 152, 146, 0.6);
+    color: #242424;
+    font-size: 42px;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
